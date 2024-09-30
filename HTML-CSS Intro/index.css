@@ -18,6 +18,13 @@ p {
   margin-bottom: 20px;
 }
 
+.wrapper2 {
+  display: flex;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+}
+
 /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
 
 .redExample {
@@ -40,9 +47,105 @@ p {
   flex-direction: row-reverse;
 }
 
+.emptyExample3 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between
+}
+
 .blueExample2 {
   width: 80px;
   background-color: blue;
+}
+
+.redExample2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+  background-color: red;
+}
+
+.centerRect {
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  justify-content: center;
+}
+
+.wrapper3 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper4 {
+  display: flex;
+  height: 60px;
+  background-color: red;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blueRect {
+  height: 60px;
+  width: 80px;
+  background-color: blue;
+}
+
+.wrapper5 {
+  display: flex;
+  height: 60px;
+  background-color: blue;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.greenCenter {
+  display: flex;
+  width: 100%;
+  height: 10px;
+  background-color: green;
+}
+
+.wrapper6 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yellowRect {
+  width: 80px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  background-color: yellow; /* Yellow background */
+}
+
+.wrapper7 {
+  display: flex;
+  height: 60px;
+  background-color: yellow;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.greenRect {
+  width: 10px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  background-color: green; /* Yellow background */
 }
 
 /* TODO: Add CSS for the rest of your solution below */
