@@ -46,3 +46,115 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+
+/*Row 3*/
+.containerRow3{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.redRow3 {
+  width: 80px;
+  background-color: red;
+}
+
+.blueRow3 {
+  width: 80px;
+  background-color: blue;
+}
+
+/*Row 4*/
+.redRow4 {
+  display: flex;
+  flex: 1;
+  flex-direction: row-reverse; 
+  background-color: red;
+}
+
+.blueRow4 {
+  width: 80px;
+  background-color: blue;
+}
+
+/*Row 5*/
+.containerRedRow5 {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    justify-content: center;   
+}
+
+.redBoxRow5 {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+
+/* Row 6 */
+.containerRedRow6 {
+  display: flex; 
+  flex: 1;
+  justify-content: center;   
+  background-color: red;
+}
+
+.blueBoxRow6 {
+  width: 90px;
+  background-color: blue;
+}
+
+ /* Row 7 */
+ .containerRow7 {
+  display: flex;
+  height: 60px;
+  background-color: transparent;
+  margin-bottom: 20px;
+ }
+ 
+ .redBoxRow7 {
+  width: 15%;
+  background-color: red;
+ }
+ 
+ .blueBoxRow7 {
+  display: flex;
+  width: 85%;
+  align-items: center;
+  background-color: blue;
+ }
+
+ .greenBoxRow7 {
+  height: 20px;
+  width: 100%;
+  background-color: green;
+ }
+
+  /* Row 8 */
+.containerRow8 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.orangeBoxRow8 {
+  width: 100px;
+  background-color: orange;
+}
+
+  /* Row 9 */
+  .containerRow9 {
+    display: flex;
+    height: 60px;
+    background-color: orange;
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  
+  .greenBoxRow9 {
+    width: 80px;
+    background-color: green;
+  }
